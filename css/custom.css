@@ -1,0 +1,105 @@
+.backgroundhero {
+    background-image: url('../img/head.png');
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+    background-position: right 35% bottom 70%;
+}
+
+.bgform {
+    background-image: url('../img/bgform2.jpg');
+    background-size: cover;
+}
+
+.thinkingsection {
+    background-image: url('../img/thinking.png');
+    height: 50vh;
+    background-size: cover;
+    position: relative;
+    background-position: right 35% bottom 20%;
+}
+
+.smallpadleft {
+    padding-left: 10px;
+}
+
+
+
+h2 {
+    font-weight: 700;
+}
+
+
+@media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    .heromobile {
+      background-position: left 75% bottom 80%;
+      
+    }
+    .mobilepadding {
+        padding-top: 1000px;
+    }
+
+    .mobilepaddingcalc {
+        padding-top: 800px;
+    }
+    
+    .mobilepaddingfirstsection {
+        padding-top: 300px;
+    }
+
+    .mobilepadfooter 
+    {
+        padding-top: 30px;
+    }
+
+     h2 {
+        text-align:left !important;
+    }
+
+    .mobiletext {
+        text-align:left !important;
+
+    }
+
+    .mobilecardheight {
+        height: 120%;
+    }
+
+    .marginwhapp {
+        margin-bottom: 40px;
+    }
+
+    .width100 {
+        max-width:100% !important;
+    }
+
+  }
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* For tablets: */
+    
+    .redtest {
+        color: red;
+    }
+
+    .cardtablet {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .movetabletcard {
+        padding-top: 250px;
+    }
+
+    .sectionstarttablet {
+        padding-top: 400px !important;
+    }
+
+   
+
+  }
